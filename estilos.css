@@ -1,0 +1,233 @@
+body {
+    background: linear-gradient(#9e50e7,rgb(238, 129, 207),rgb(238, 191, 225)) ;
+    color:#ffffff;
+}
+
+
+
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    height: 400px;
+    background-image: url('../Imagenes/dokidoki.png');
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+  padding: 20px 30px;
+}
+
+main .foto{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(248, 182, 237);
+  border-radius: 50%;
+  margin: -90px 0 20px 0;
+  border: 6px solid #ffffff;
+
+}
+
+/****Boton*****/
+
+
+.boton a{
+  background: #5F6F99;
+  text-decoration: none; /*quita subrayado*/
+  color:white;
+  font-size: 18px;
+  display: block;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width:100px;
+  margin:15px auto;
+  text-align:center;
+}
+
+.boton a:hover{
+  background: #ffa2fa;
+}
+
+/******FOOTER******/
+footer{
+  background: #020202;
+  padding: 30px;
+
+}
+
+footer p{
+  color:white;
+  text-align: center;
+}
+
+main .foto img{
+  width:100%;
+  border-radius:50%;
+
+}
+
+footer{
+  background: #5F6F99;
+  text-align: center;
+  padding: 25px;
+  color: #ffffff
+}
+/*main{
+    background:red;
+}*/
+main .perfil{
+    width: 150px;
+    height: 150px;
+    background: pink;
+    border: 8px solid rgb(184, 119, 245);
+    border-radius: 50%;
+    margin-top: -95px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+main .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+main .texto h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+main .texto p{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/****Boton*****/
+
+
+.boton a{
+    background: pink; 
+    text-decoration: none; /*Quita subrayado*/ 
+    color:white;
+    font-size: 18px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width:100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/******FOOTER******/
+footer{
+    background: #020202;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background: url('gifs/mlp.gif');
+    background-size: cover; /*Abarca el 100% de la imagen*/
+    background-position: center center;
+  }
+  /*main{
+    background:red;
+  }*/
+  
+  /***Foto de perfil***/
+  main .perfil{
+    width: 150px;
+    height: 150px;
+    background: gray;
+    border:8px solid #fff;
+    border-radius: 50%;
+   
+  
+    margin: -95px auto 10px auto;
+  }
+  
+  main .perfil img{
+    width:100%;
+    border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+
+  
+  main .texto h2{
+    text-align:center;
+    font-size: 35px;
+    margin:10px 0;
+  }
+  
+  main .texto p{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /****Boton*****/
+  
+  
+  .boton a{
+    background: pink;
+    text-decoration: none; /*quita subrayado*/
+    color:rgb(200, 132, 255);
+    font-size: 18px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width:100px;
+    margin:15px auto;
+    text-align:center;
+  }
+  
+  .boton a:hover{
+    background: #ffb8fb;
+  }
+  
+  /******FOOTER******/
+  footer{
+    background: #020202;
+    padding: 30px;
+  
+  }
+  
+  footer p{
+    color:white;
+    text-align: center;
+  }
+  
+.contenedor-cajas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.tres{
+    background: #FFFFFF;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: rgb(255, 175, 238);
+}
