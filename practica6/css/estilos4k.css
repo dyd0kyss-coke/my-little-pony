@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: "Calibri light"; 
+    background: linear-gradient(#9e50e7,rgb(238, 129, 207),rgb(238, 191, 225)) ;
+    color:#000000; 
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/mlp.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: white;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Contenedor Principal con Grid */
+.contenedor-grid {
+    display: grid;
+    /* Crea exactamente 5 columnas de igual tamaño */
+    grid-template-columns: repeat(5, 1fr); 
+    /* Margen entre las "cajas" (Propiedad Margin del Modelo de Caja) */
+    gap: 15px; 
+    max-width: 1200px;
+    margin: 0 auto; /* Centra la tabla en la pantalla */
+}
+
+/* Estilo de cada "Caja" de producto */
+.producto {
+    border: 1px solid #ddd;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    border-color: #999;
+    transform: translateY(-5px); /* Efecto sutil al pasar el mouse */
+}
+
+/* Ajuste de Imágenes */
+.producto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Información inferior */
+.info {
+    padding: 10px;
+    text-align: left;
+}
+
+.info h3 {
+    font-size: 14px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: rgb(245, 128, 229);
+}
+
+.info p {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+
+.enlace-invisible {
+    text-decoration: none;
+    color:inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/****Boton*****/
+
+
+.boton a{
+    background: #fa91fd;
+    text-decoration: none; /*quita subrayado*/
+    color:white;
+    font-size: 18px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width:100px;
+    margin:15px auto;
+    text-align:center;
+}
+
+.boton a:hover{
+    background: #005252;
+}
+
+/******FOOTER******/
+footer{
+    background: #020202;
+    padding: 30px;
+
+}
+
+footer p{
+    color:white;
+    text-align: center;
+}
+
+main .foto img{
+    width:100%;
+    border-radius:50%;
+
+}
+
+footer{
+    background: rgb(94, 191, 255);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff
+}
